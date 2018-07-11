@@ -29,9 +29,9 @@ public class UserTest {
 
 	@Test @Ignore
 	public void insert() {
-		UserVO user = new UserVO("kakaoya", "È«±æµ¿", "³²", "¼­¿ï");
+		UserVO user = new UserVO("kakaoya", "í¸ì§‘", "ìˆ˜ì •", "ã…ã…ã…");
 		int cnt = sqlSession.insert("userNS.insertUser", user);
-		System.out.println(cnt+"°³");
+		System.out.println(cnt+"ï¿½ï¿½");
 	}
 	
 	@Test @Ignore
